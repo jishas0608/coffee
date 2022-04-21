@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Belgrano&family=Cookie&family=Courgette&family=Fugaz+One&family=Hind:wght@700&family=Marck+Script&family=Merienda+One&family=Pacifico&family=Palette+Mosaic&family=Patua+One&family=Satisfy&family=Sofia&family=Tangerine&display=swap');
+.c1{
+    width:1700;
+    height:180px;
+    background-color: rgb(73, 46, 10);
+    color:white;
+    border:2px solid black;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    /* club coffee stick on top */
+    position:sticky;
+    
+}
+.i1{
+    text-align: left;
+}
+.c2{
+    background-color:white;
+    color:black;
+    width:2000px;
+    height:90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+}
+label{
+    font-size: 30px;
+}
+img{
+    width: 100%;
+    height: 872px;
+}
+.col{
+    color:black;
+    font-size: small;
+    float:center;
+    padding:70px;
+    width:1800px;
+    height:70px;
+    font-family: 'Jaldi', sans-serif;
+}
+
+
+.coffee{
+    padding:10px;
+    width:1700px;
+    height:70px;
+    float:center;
+    padding: 20px;
+
+}
+#h1{
+    width: 2010px;
+    height: 555px;
+}
+/* .block{
+    width:500px;
+    height:300px;
+    background-color: white;
+    text-align: center;
+    font-size: larger;
+    border:3px solid black;
+   
+    padding:14px;
+    color: rgb(202, 25, 25);
+} */
+.row{
+    background-color:black;
+    width:1700;
+    height:530px;
+    display:flex;justify-content: space-evenly;
+    align-items:center;
+    margin-left: -130px;
+}
+.coll{
+    width: 300px;;
+    height:320px;
+    border: 2px rgb(192, 145, 17) solid;
+    text-align: center;
+    padding: 14px;
+    background-color: rgb(49, 33, 13);
+    font-size: medium;
+    color:white;
+}
+.b1{
+    width: 100%;
+    height: 662px;
+
+}
+#a1{
+    width:122px;
+    height: 136px;
+}
+#a2{
+    width:122px;
+    height: 136px;
+}
+#a3{
+    width: 137px;
+    height: 147px;
+}
+.box{
+  
+    height:430px;
+    background-color: white;
+    color:rgb(134, 81, 12);;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Pacifico', cursive;
+    margin-top: 40px;
+
+}
+h4{
+  
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h5{
+    color:black;
+    font-size: 43px;
+}
+button{
+    background-color: rgb(184, 124, 13);
+    width: 330px;
+    padding: 53px;
+    
+    color:rgb(14, 14, 15);
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+button:hover{
+    background-color: rgb(8, 8, 8);
+    color:rgb(238, 231, 231);
+    text-align: center;
+}
+#bu1{
+    background-color: rgb(184, 124, 13);
+    width: 149px;
+    padding: 20px;
+    color:rgb(14, 14, 15);
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#bu1:hover{
+    background-color: rgb(14, 13, 12);
+    color:rgb(235, 227, 227);
+}
+.intro{
+
+    width:2025px;
+    height: 187px;
+    background-color: rgb(7, 7, 7);
+    color:rgb(134, 81, 12);
+    text-align: center;
+   
+    font-family: 'Pacifico', cursive;
+}
+div p{
+    color: rgb(134, 81, 12);
+    font-size: 30px;
+}
+div p:hover{
+    color:rgb(179, 154, 11);
+}
+
+
+.final{
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+    background-color: rgb(100, 59, 6);
+    height:400px;
+    width: 1976px;
+  
+}
+.b{
+    width:600;
+    height:308px;
+    background-color: rgba(223, 148, 8, 0.856);
+    color:rgb(17, 17, 16);;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Pacifico', cursive;
+
+}
+.icon{
+    width:600;
+    height:480px;
+    background-color: rgb(252, 249, 237);
+    color:rgb(134, 81, 12);;
+    text-align: left;
+    font-size: 100px;
+    font-family: 'Pacifico', cursive;
+
+
+}
+.contact{
+    text-align: center;
+    width: 24%;
+    margin: -6px auto 0px auto;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(19, 18, 17);
+    font-size: 25px;
+    color: wheat;
+    height:306px;
+  
+
+}
+#bu2{
+    background-color: rgb(184, 124, 13);
+    width: 101px;
+    padding: 22px;
+    color: rgb(14, 14, 15);
+    font-size: medium;
+    color:rgb(14, 14, 15);
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+   
+        
+}
+#bu2:hover{
+    background-color: rgb(206, 163, 22);
+    color:brown;
+}
+
+
+h1:hover{
+  color: rgb(206, 163, 22);
+   
+}
+.cc{
+    width: 2001px;
+    height: 520px;
+    background-color: rgb(245, 245, 244);
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:20px;
+    text-align: center;
+    color:rgb(17, 16, 16);
+}
+.cof{
+    width: 308px;
+    height: 397px;
+    border:black solid 2px;
+}
+#im{
+    width: 308px;
+    height: 397px;
+}
+.pick{
+    width: 800px;
+    height: 397px;
+}
+
+.box{
+    width:600;
+    height:430px;
+    background-color: white;
+    color:rgb(134, 81, 12);;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Pacifico', cursive;
+
+}.bob{
+    width:600;
+    height:255px;
+    background-color: white;
+    color:rgb(134, 81, 12);;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Pacifico', cursive;
+
+}
+.heading{
+    text-align: center;
+}
+ .cc:hover img{
+    transform: scale(0.8);
+}
+.cc .cof1:hover img{
+    transform: scale(1.0);
+}
+
+.cc .cof2:hover img{
+    transform: scale(1.0);
+}
+
+.cc .cof3:hover img{
+    transform: scale(1.0);
+}
+
+.cc .cof4:hover:hover img{
+    transform: scale(1.0);
+}
+
+.cc .cof5:hover img{
+    transform: scale(1.0);
+}
+
+.cc .cof6:hover img{
+    transform: scale(1.0);
+}
+*{
+    padding:0;
+    margin:0;
+
+}
+.content-wrapper img{
+    width:100%;
+}
+.text-wrapper h1{
+    text-align: center;
+    color:aliceblue;
+    font-size: 10px;
+
+   
+}
+.textover{
+    position: relative;
+    /* width: 100px;   */
+}
+ .textover img{
+    width:100; 
+
+}
+
+.textover figcaption{
+    position: absolute;
+    bottom: 3823px;
+    left: 1200px;
+    
+    color: white;
+    width: 137px;
+    padding: 10px;
+    text-align: right;
+    font-size: 115px;
+    
+    
+} 
+#ph{
+    font-size: 27px;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+}
+#la{
+    font-size: 27px;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+    
+}
+/* .two{
+    text-align: center;
+    background-color: white;
+    display:flex;
+    color:rgb(14, 13, 13);
+   
+  
+}
+.tw{
+    width: 400px;
+    height:300px;
+    margin-top: 30px;
+ 
+    padding:10px;
+    
+}
+#io{
+    width: 602px;
+    height: 433px;
+    color: black;
+}
+}
+    
+    
+.to{
+    width:400px;
+    height:200px;
+}
+#pa{
+    font-size: 21px;
+    color: rgb(202, 18, 18);
+    text-align: justify;
+    margin-left: 30px;
+    margin-top: -153px;
+}
+#pa:hover{
+    background-color: rgb(241, 240, 237);
+    color:rgb(16, 16, 17);
+} */

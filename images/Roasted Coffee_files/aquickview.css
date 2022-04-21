@@ -1,0 +1,146 @@
+.quickview-loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  background: rgba(255, 255, 255, 0.8);
+  opacity: 0.8;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 300ms;
+  -moz-transition: all 300ms;
+  -webkit-transition: all 300ms;
+  -ms-transition: all 300ms;
+}
+.quickview-loading-overlay.loading {
+  opacity: 1;
+  visibility: visible;
+}
+.quickViewDetails .modal-header {
+  padding: 0;
+  height: 0;
+  position: relative;
+  z-index: 1;
+}
+.quickViewDetails .modal-header .action-close {
+  right: 20px;
+}
+.quickViewDetails .modal-header .action-close:before {
+  font-size: 24px;
+  content: "\e935";
+  font-family: "Linearicons";
+}
+.quickViewDetails .modal-inner-wrap {
+  transition: all 300ms;
+  -moz-transition: all 300ms;
+  -o-transition: all 300ms;
+  -ms-transition: all 300ms;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-50%) scale(0.95);
+  -moz-transform: translateY(-50%) scale(0.95);
+  -webkit-transform: translateY(-50%) scale(0.95);
+  -o-transform: translateY(-50%) scale(0.95);
+}
+.quickViewDetails .modal-inner-wrap .modal-content {
+  padding: 0;
+  overflow-y: visible;
+}
+.quickViewDetails._show .modal-inner-wrap {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-50%) scale(1);
+  -moz-transform: translateY(-50%) scale(1);
+  -webkit-transform: translateY(-50%) scale(1);
+  -o-transform: translateY(-50%) scale(1);
+}
+.quickViewDetails .column.main.product-info-clearfix {
+  float: none !important;
+  width: 100% !important;
+}
+.quickViewDetails .product-info-main-wrapper {
+  padding: 40px 90px;
+  float: left;
+  width: 50%;
+  max-height: 100%;
+  overflow-y: auto;
+}
+.quickViewDetails .product-info-main-wrapper .product-info-main {
+  float: none;
+  width: 100%;
+  text-align: left !important;
+}
+.quickViewDetails .product-info-main-wrapper .product-info-main .page-title-wrapper .page-title {
+  text-align: left !important;
+}
+.quickViewDetails .product-info-main-wrapper .product-info-main .product-reviews-summary {
+  margin-left: 0;
+  margin-right: 0;
+}
+.quickViewDetails .product-info-main-wrapper .product-info-main .product-info-price {
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+}
+.quickViewDetails .product-info-media-wrapper {
+  float: left;
+  width: 50%;
+}
+.quickViewDetails .product-info-media-wrapper .product.media {
+  float: none;
+  width: 100%;
+}
+.quickViewDetails .product.media .fotorama__nav-wrap.fotorama__nav-wrap--horizontal {
+  display: none !important;
+}
+.modal-popup._inner-scroll.quickViewDetails .modal-inner-wrap {
+  width: 1170px;
+  top: 50%;
+  margin: 0 auto;
+  max-width: calc(100% - 30px);
+  max-height: calc(100vh - 30px);
+}
+.product_quickview_content {
+  height: 0;
+  overflow: hidden;
+  position: relative;
+}
+.product_quickview_content > .catalog-product-view {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+.product_quickview_content > .catalog-product-view .product-info-quickview {
+  height: 100%;
+}
+.product_quickview_content > .catalog-product-view .product.media .owl-item {
+  padding: 0 !important;
+}
+.product_quickview_content .bundle-options-container {
+  margin: 20px 0 0;
+}
+.product_quickview_content .bundle-options-container .product-add-form {
+  display: block !important;
+}
+.product_quickview_content .bundle-options-container .bundle-options-wrapper {
+  padding: 0;
+}
+.product_quickview_content .bundle-options-container .bundle-options-wrapper .product-options-wrapper .legend.title,
+.product_quickview_content .bundle-options-container .bundle-options-wrapper .product-options-wrapper .legend.title + br {
+  display: none;
+}
+.product_quickview_content .bundle-options-container .bundle-options-wrapper,
+.product_quickview_content .bundle-options-container .block-bundle-summary {
+  float: none;
+  width: 100% !important;
+  position: static !important;
+}
+.product_quickview_content .bundle-options-container .fieldset > .field:not(.choice) > .control {
+  float: none;
+  width: 100% !important;
+}
